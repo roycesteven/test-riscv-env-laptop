@@ -33,7 +33,7 @@ option("debug_run")
     set_showmenu(true)
     set_description("Run simulator in debug mode (-i)")
 
-target("testing")
+target("heap-buffer-under-write")
     set_kind("binary")
     set_toolchains("riscv32-unknown-elf")
 
