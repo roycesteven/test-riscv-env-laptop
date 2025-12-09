@@ -18,6 +18,8 @@ toolchain("riscv32-unknown-elf")
 
         toolchain:add("cxflags", default_flags)
         toolchain:add("ldflags", default_flags)
+                toolchain:add("cxflags", "-g")
+
     end)
 toolchain_end()
 
